@@ -1,0 +1,65 @@
+# Git相关
+.git
+.gitignore
+.github
+
+# Python相关
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+dist
+build
+*.egg
+.venv
+venv
+env
+
+# 项目特定
+logs/*
+!logs/.gitkeep
+cache/*
+data_backup_*/
+*.log
+
+# 文档和资源
+docs/
+images/
+*.md
+!README.md
+LICENSE
+CONTRIBUTORS.md
+ACKNOWLEDGMENTS.md
+
+# 测试
+tests/
+test_*.py
+*_test.py
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# 开发脚本
+scripts/dev_*
+start_*.sh
+start_*.bat
+start_*.ps1
+
+# 配置文件（会在.env中配置）
+*.yaml
+*.yml
+!docker-compose.yml
+
+# 其他
+*.stackdump
+uv.lock
+.python-version
+
