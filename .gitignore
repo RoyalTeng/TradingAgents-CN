@@ -126,3 +126,9 @@ COMMIT_SUMMARY.md
 *.temp
 *.pyc.*
 *.pyo.*
+
+# 部署与本地运行时产物（避免泄露密钥与提交大体量文件）
+deploy/.env
+deploy/data/
+deploy/logs/
+compose-build-web.pid
